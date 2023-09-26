@@ -2,7 +2,7 @@
 This is a modified __init__.py file for C3S so that it works on modern linux machines  
 
 Once you have gotten to the runc3s.py step in the homework,  
-1. Download __init__.py from this repository  
+1. Download __init__.py from this repository   
 2. Open a new terminal, and run the following code one line at a time:  
 ```
 conda activate YONG-C3S
