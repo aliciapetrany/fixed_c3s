@@ -7,7 +7,7 @@ Once you have gotten to the runc3s.py step in the homework,
 ```
 conda activate YONG-C3S
 cd C3S
-cp ~/Downloads/__init__.py src/
+mv ~/Downloads/__init__.py src/
 python setup.py install --user 
 ```
 3. Open your web browser, and download the SRA files MANUALLY from these links. It WILL NOT WORK if you use the wget links.  
@@ -21,3 +21,4 @@ https://drive.google.com/file/d/1lN8ahayDZUzuO8auyzonIzoyacx7RdMF/view?usp=shari
 ```
 runC3S.py -x hg19_basic -1 SRR5583324_1.fastq.gz -2 SRR5583324_2.fastq.gz --prefix HS3 --bait chr11:5305934
 ```
+6. If it still doesn't work, I've uploaded the bedpairs file as well so you can complete the last part of the assignment
